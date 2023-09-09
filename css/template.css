@@ -1,0 +1,124 @@
+/*LOADING*/
+
+footer {
+    background-color: #ececec;
+    position: fixed;
+    height: 6%;
+    top: 95%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.indicador {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bt {
+    width: 100%;
+}
+
+.content-table {
+    margin: 0% 0px 5% 5%;
+    width: 90%;
+    display: none;
+}
+
+.modal {
+    background: #000000a6;
+}
+
+#GM {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.login {
+    margin-top: 50px;
+}
+
+footer>div {
+    margin-top: 0.6%;
+}
+
+.btn.btn-default.btn-lg.bt.red {
+    background-color: #ff4141;
+    border: transparent;
+}
+
+.btn.btn-default.btn-lg.bt.gren {
+    background-color: #399d45;
+    border: transparent;
+}
+
+.loader:before,
+.loader:after,
+.loader {
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation: load7 1.8s infinite ease-in-out;
+    animation: load7 1.8s infinite ease-in-out;
+}
+
+.loader {
+    margin: 8em auto;
+    font-size: 10px;
+    position: relative;
+    text-indent: -9999em;
+    -webkit-animation-delay: 0.16s;
+    animation-delay: 0.16s;
+}
+
+.loader:before {
+    left: -3.5em;
+}
+
+.loader:after {
+    left: 3.5em;
+    -webkit-animation-delay: 0.32s;
+    animation-delay: 0.32s;
+}
+
+.loader:before,
+.loader:after {
+    content: '';
+    position: absolute;
+    top: 0;
+}
+
+@-webkit-keyframes load7 {
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 2.5em 0 -1.3em #ffffff;
+    }
+    40% {
+        box-shadow: 0 2.5em 0 0 #FFF;
+    }
+}
+
+@keyframes load7 {
+    0%,
+    80%,
+    100% {
+        box-shadow: 0 2.5em 0 -1.3em #ffffff;
+    }
+    40% {
+        box-shadow: 0 2.5em 0 0 #FFF;
+    }
+}
+
+.btn-default {
+    background-color: #000;
+    border-color: #756d65;
+}
